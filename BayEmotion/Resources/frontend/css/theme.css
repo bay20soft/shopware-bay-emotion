@@ -1,0 +1,38 @@
+/*Homepage slider */
+.bay-custom-slider-form-text-content{
+	transform: translate(0, -50%);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	z-index: 100;
+}
+.bay-custom-slider-form-text-content .slider-details{
+	text-align: left;
+}
+.bay-custom-slider-form-text-content .slider-details h2{
+	color: #fff;
+	font-size: 40px;
+	line-height: normal;
+	font-family: 'Gotham';
+	font-weight: 500;
+}
+.bay-custom-slider-form-text-content  p{
+	color: #fff;
+	font-size: 20px;
+	line-height:normal;
+	text-align: left;
+	font-family: 'Gotham';
+	font-weight: 500;
+    text-transform: lowercase;
+}
+.bay-custom-slider-form-text-content a.button{
+    background: #2d3976;
+    color: #ffff;
+    font-size: 18px;
+    padding: 15px 50px;
+    border-radius: 46px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    display: inline-block;
+}

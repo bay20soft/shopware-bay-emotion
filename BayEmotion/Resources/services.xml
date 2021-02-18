@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <parameters>
+        <parameter key="bay_emotion.view_dir">%bay_emotion.plugin_dir%/Resources/views</parameter>
+        <parameter key="bay_emotion.view_dir">%bay_emotion.plugin_dir%/Resources/views</parameter>
+    </parameters>
+    <services>
+
+        <service id="bay_emotion.subscriber.subscriber" class="BayEmotion\Subscriber\Subscriber">
+            <argument type="service" id="service_container" />
+            <argument type="string">%bay_emotion.view_dir%</argument>
+            <tag name="shopware.event_subscriber" />
+        </service>
+
+    </services>
+</container>

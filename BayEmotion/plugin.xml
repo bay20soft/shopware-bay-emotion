@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="de">Bay20 Emotions</label>
+    <label lang="en">Bay20 Emotions</label>
+
+    <version>1.0.0</version>
+    <copyright></copyright>
+    <license></license>
+    <link>https://bay20.com/</link>
+    <author>Bay</author>
+    <compatibility minVersion="5.4.0" />
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung;</changes>
+        <changes lang="en">First release;</changes>
+    </changelog>
+
+</plugin>

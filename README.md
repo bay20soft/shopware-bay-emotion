@@ -1,3 +1,4 @@
 # shopware-bay-emotion
 
-This plugin will give you extra field to add details for each banner slider item.
+This plugin will give you extra field to add text on each banner slider item in shopware 5.
+Please contact wargis@bay20.com in case you face any issue.
